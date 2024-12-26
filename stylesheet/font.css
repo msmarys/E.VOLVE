@@ -1,4 +1,6 @@
 @font-face {
-  font-family: "KleemaxDEMO"; /* название шрифта */
-  src: url(../font/KleemaxDEMO.ttf); /* ссылка на файл */
+  font-family: "KleemaxDEMO";
+  src: url("../font/KleemaxDEMO.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
