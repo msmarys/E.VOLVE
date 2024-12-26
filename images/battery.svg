@@ -1,0 +1,22 @@
+<svg width="270" height="50" viewBox="0 0 270 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1.5" y="1.5" width="267" height="47" stroke="#F979F8" stroke-width="3"/>
+<rect width="20" height="40" transform="translate(5 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(29 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(53 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(77 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(101 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(125 5)" fill="#F979F8"/>
+<rect width="20" height="40" transform="translate(149 5)" fill="#F979F8"/>
+<g opacity="0.5">
+<rect width="20" height="40" transform="translate(173 5)" fill="#F979F8"/>
+</g>
+<g opacity="0.5">
+<rect width="20" height="40" transform="translate(197 5)" fill="#F979F8"/>
+</g>
+<g opacity="0.5">
+<rect width="20" height="40" transform="translate(221 5)" fill="#F979F8"/>
+</g>
+<g opacity="0.5">
+<rect width="20" height="40" transform="translate(245 5)" fill="#F979F8"/>
+</g>
+</svg>

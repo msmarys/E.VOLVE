@@ -19,3 +19,62 @@ body {
   margin-top: 70px;
   text-align: center;
 }
+
+/* Футтер */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 0;
+  margin-bottom: 70px;
+}
+
+.footer__ticker {
+  width: 550px;
+  height: 87px;
+  background-color: #f979f8;
+  color: #fdeff9;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.footer__author {
+  width: 1740px;
+  height: 163px;
+  border: 7px solid #f979f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.footer__group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fdeff9;
+}
+
+.footer__group p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer__name {
+  font-size: 50px;
+  color: #fdeff9;
+  text-align: center;
+}
+
+.footer__hse {
+  font-size: 20px;
+  color: #fdeff9;
+  text-align: left;
+  text-transform: uppercase;
+}
