@@ -12,8 +12,21 @@
   animation: blink 0.6s infinite ease-in-out;
 }
 
+/* Анимация бегущей строки data */
+.user_data_wrapper {
+  animation: user_data_scroll 10s linear infinite;
+}
+@keyframes user_data_scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 /* Бегущая строка */
-.footer__ticker span {
+.footer_ticker span {
   display: inline-block;
   animation: marquee 5s linear infinite;
 }
