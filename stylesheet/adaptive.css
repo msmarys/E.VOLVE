@@ -226,6 +226,95 @@
     width: 108px;
     height: 108px;
   }
+
+  .brain_activity {
+    margin-right: 17px;
+    width: 290px;
+    min-height: 370px;
+  }
+
+  .user_main {
+    flex-direction: row;
+  }
+
+  .user_name {
+    width: 600px;
+    height: 299px;
+    padding: 30px;
+    margin-right: 17px;
+  }
+
+  .user_indicators {
+    width: 1262px;
+    height: 524px;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+
+  .user_text {
+    font-size: 50px;
+  }
+
+  .letter {
+    font-size: 70px;
+  }
+
+  .letter_line {
+    width: 80px;
+  }
+
+  .indicators {
+    width: 620px;
+    height: 369px;
+  }
+
+  .brain_activity p {
+    margin-top: 20px;
+    font-size: 16px;
+  }
+
+  .brain_line {
+    margin-top: 120px;
+    width: 272px;
+    height: 100px;
+  }
+
+  .brain_img {
+    margin-top: 70px;
+    margin-left: -264px;
+    position: absolute;
+    width: 259px;
+    height: 231px;
+  }
+
+  .pulse_numbers {
+    margin-top: 20px;
+    width: 265px;
+    justify-content: space-between;
+  }
+
+  .pulse_numbers h2 {
+    font-size: 50px;
+  }
+
+  .heart {
+    margin-top: 40px;
+    width: 250px;
+  }
+
+  .mood {
+    height: 106px;
+  }
+
+  .mood_toggle {
+    width: 294px;
+    height: 106px;
+  }
+
+  .pulse {
+    width: 305px;
+    height: 357px;
+  }
 }
 
 /* Для экранов от 1024px до 1365px */
