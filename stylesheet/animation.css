@@ -25,6 +25,23 @@
   }
 }
 
+/* Анимация шапки ожидание результата */
+.result:hover {
+  animation: blink 1s infinite;
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
 /* Бегущая строка */
 .footer_ticker span {
   display: inline-block;

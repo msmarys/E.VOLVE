@@ -15,6 +15,19 @@
   .user_data_text {
     font-size: 50px;
   }
+
+  .result {
+    width: 1660px;
+    height: 170px;
+    padding: 40px;
+  }
+  .result_text {
+    font-size: 50px;
+  }
+  .result_icon {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 /* Для экранов от 1366px до 1919px */
@@ -54,6 +67,19 @@
   .user_data_text {
     font-size: 30px;
   }
+
+  .result {
+    width: 1300px;
+    height: 170px;
+    padding: 20px;
+  }
+  .result_text {
+    font-size: 40px;
+  }
+  .result_icon {
+    width: 90px;
+    height: 90px;
+  }
 }
 
 /* Для экранов от 1024px до 1365px */
@@ -70,13 +96,13 @@
 
   @media (max-width: 1280px) {
     .footer_author {
-      width: 1116px;
+      width: 1076px;
     }
   }
 
   @media (max-width: 1024px) {
     .footer_author {
-      width: 934px;
+      width: 895px;
     }
   }
 
@@ -116,6 +142,26 @@
 
   .user_data_text {
     font-size: 30px;
+  }
+
+  .result {
+    width: 1116px;
+    height: 120px;
+    padding: 20px;
+  }
+
+  @media (max-width: 1024px) {
+    .result {
+      width: 934px;
+    }
+  }
+
+  .result_text {
+    font-size: 35px;
+  }
+  .result_icon {
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -167,6 +213,19 @@
   .user_data_text {
     font-size: 30px;
   }
+
+  .result {
+    width: 656px;
+    height: 120px;
+    padding: 20px;
+  }
+  .result_text {
+    font-size: 35px;
+  }
+  .result_icon {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* Для экранов до 479px */
@@ -217,5 +276,24 @@
 
   .user_data_text {
     font-size: 25px;
+  }
+
+  .result {
+    width: 296px;
+    height: 260px;
+    padding: 20px;
+    margin-top: 40px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .result_text {
+    font-size: 25px;
+    line-height: 1.1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .result_icon {
+    width: 70px;
+    height: 70px;
   }
 }
