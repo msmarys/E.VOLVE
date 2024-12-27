@@ -39,7 +39,7 @@ body {
 .user_data_text {
   color: #fdeff9;
   text-transform: uppercase;
-  margin-right: 0px;
+  margin-right: 10px;
 }
 
 /* Ожидание генерации (шапка) */
@@ -66,6 +66,49 @@ body {
   text-transform: uppercase;
 }
 
+/* Ожидание генерации */
+.generation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px 0 50px;
+  padding: 20px;
+  border: 7px solid #f979f8;
+  box-sizing: border-box;
+}
+
+.first_block,
+.second_block,
+.last_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first_block {
+  margin-top: 80px;
+}
+
+.last_block {
+  margin-bottom: 80px;
+}
+
+.center_image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image {
+  width: 108px;
+  height: 108px;
+}
+
+
 /* Футтер */
 .footer {
   display: flex;
@@ -90,7 +133,7 @@ body {
 }
 
 .footer_author {
-  width: 1740px;
+  width: 1815px;
   height: 163px;
   border: 7px solid #f979f8;
   display: flex;

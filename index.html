@@ -15,17 +15,18 @@
     <link rel="stylesheet" href="stylesheet/style.css" />
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
   </head>
+
   <body>
     <!--  Фон -->
     <div class="background"></div>
 
     <!-- Секция: Заголовок h1 -->
-    <div class="title_section">
+    <section class="title_section">
       <h1>module loading...</h1>
-    </div>
+    </section>
 
     <!-- Бегущая строка даты -->
-    <div class="user_data_container">
+    <section class="user_data_container">
       <div class="user_data_wrapper">
         <span class="user_data_text"
           >UPLOADING USER DATA UPLOADING USER DATA</span
@@ -34,16 +35,41 @@
           >UPLOADING USER DATA UPLOADING USER DATA</span
         >
       </div>
-    </div>
+    </section>
 
     <!-- Ожидание генерации (шапка) -->
-    <div class="result">
+    <section class="result">
       <img class="result_icon" src="./images/result1.svg" alt="" />
       <h2 class="result_text">GENERATING / PLEASE WAIT</h2>
       <img class="result_icon" src="./images/result2.svg" alt="" />
-    </div>
+    </section>
 
     <!-- Ожидание генерации -->
+    <section class="generation">
+      <img src="./images/big-diamond.svg" alt="" class="center_image" />
+      <div class="first_block">
+        <img src="./images/1.svg" alt="" class="image rotate_clockwise" />
+        <img
+          src="./images/2.svg"
+          alt=""
+          class="image rotate_counterclockwise"
+        />
+      </div>
+
+      <div class="second_block">
+        <img src="./images/3.svg" alt="" class="image image_blink" />
+        <img src="./images/4.svg" alt="" class="image image_blink" />
+      </div>
+
+      <div class="last_block">
+        <img
+          src="./images/5.svg"
+          alt=""
+          class="image rotate_counterclockwise"
+        />
+        <img src="./images/6.svg" alt="" class="image rotate_clockwise" />
+      </div>
+    </section>
 
     <!-- Футер -->
     <footer class="footer">
@@ -51,16 +77,15 @@
       <div class="footer_ticker">
         <span>MY CREATOR</span>
       </div>
-      <!-- Автор -->
+
       <div class="footer_author">
-        <!-- Группа -->
         <div class="footer_group">
           <p>BP24D309, 2024</p>
           <img src="./images/battery.svg" alt="" />
         </div>
-        <!-- Имя -->
+
         <div class="footer_name">MARIA SHISHOVA</div>
-        <!-- HSE -->
+
         <div class="footer_hse">hse art AND<br />design school</div>
       </div>
     </footer>
