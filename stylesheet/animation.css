@@ -14,7 +14,7 @@
 
 /* Анимация бегущей строки data */
 .user_data_wrapper {
-  animation: user_data_scroll 10s linear infinite;
+  animation: user_data_scroll 10s ease-in-out infinite;
 }
 
 @keyframes user_data_scroll {
@@ -33,7 +33,7 @@
 
 /* Анимация ожидание генерации */
 .rotate_clockwise {
-  animation: rotate_clockwise 3s linear infinite;
+  animation: rotate_clockwise 3s ease-in-out infinite;
 }
 @keyframes rotate_clockwise {
   from {
@@ -45,7 +45,7 @@
 }
 
 .rotate_counterclockwise {
-  animation: rotate_counterclockwise 3s linear infinite;
+  animation: rotate_counterclockwise 3s ease-in-out infinite;
 }
 @keyframes rotate_counterclockwise {
   from {
@@ -64,7 +64,7 @@
 /* Бегущая строка */
 .footer_ticker span {
   display: inline-block;
-  animation: marquee 5s linear infinite;
+  animation: marquee 5s ease-in-out infinite;
 }
 
 @keyframes marquee {
@@ -107,7 +107,7 @@
 }
 
 .mood_toggle {
-  animation: moveToggle 3s linear infinite;
+  animation: moveToggle 3s ease-in-out infinite;
 }
 @keyframes moveToggle {
   0% {
@@ -123,7 +123,7 @@
 
 @media (min-width: 640px) and (max-width: 1023px) {
   .mood_toggle {
-    animation: moveToggleMobile 3s linear infinite;
+    animation: moveToggleMobile 3s ease-in-out infinite;
   }
 
   @keyframes moveToggleMobile {
@@ -141,7 +141,7 @@
 
 @media (max-width: 479px) {
   .mood_toggle {
-    animation: moveToggleMobile 3s linear infinite;
+    animation: moveToggleMobile 3s ease-in-out infinite;
   }
 
   @keyframes moveToggleMobile {
@@ -197,5 +197,19 @@
   }
   100% {
     color: #f979f8;
+  }
+}
+
+.right_img img {
+  position: absolute;
+  animation: marquee 10s ease-in-out infinite;
+}
+
+@keyframes marquee {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
   }
 }
