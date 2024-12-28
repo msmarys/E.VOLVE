@@ -1026,6 +1026,77 @@
     width: 242px;
     height: 159px;
   }
+
+  .dream_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dream_header {
+    width: 628px;
+    height: 70px;
+  }
+
+  .dream_header p {
+    font-size: 35px;
+  }
+
+  .dream_main {
+    width: 626px;
+    height: 915px;
+  }
+
+  .dream_wrapper {
+    width: 640px;
+    height: 905px;
+  }
+
+  .right_side {
+    width: 630px;
+    height: 493px;
+  }
+
+  .right_img {
+    width: 596px;
+    height: 323px;
+    padding: 20px;
+  }
+
+  .right_img img {
+    height: 250px;
+  }
+
+  .dreams_settings img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .left_side {
+    padding: 20px;
+    width: 595px;
+    height: 345px;
+  }
+
+  .toggle_1,
+  .toggle_2,
+  .toggle_3,
+  .toggle_4 {
+    width: 600px;
+    height: 60px;
+  }
+
+  .inner_toggle_1,
+  .inner_toggle_2,
+  .inner_toggle_3,
+  .inner_toggle_4 {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 /* Для экранов до 479px */
@@ -1213,5 +1284,81 @@
     height: 504px;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  .dream_wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left_side {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dream_header {
+    width: 339px;
+    height: 86px;
+  }
+
+  .dream_header p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .dream_main {
+    width: 266px;
+    height: 643px;
+  }
+
+  .dream_wrapper {
+    width: 306px;
+    height: 653px;
+  }
+
+  .right_side {
+    width: 306px;
+    height: 333px;
+    margin-bottom: 30px;
+  }
+
+  .right_img {
+    width: 276px;
+    height: 135px;
+    padding: 10px;
+  }
+
+  .right_img img {
+    height: 115px;
+  }
+
+  .dreams_settings img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .left_side {
+    padding: 10px;
+    width: 276px;
+    height: 310px;
+  }
+
+  .toggle_1,
+  .toggle_2,
+  .toggle_3,
+  .toggle_4 {
+    width: 273px;
+    height: 60px;
+  }
+
+  .inner_toggle_1,
+  .inner_toggle_2,
+  .inner_toggle_3,
+  .inner_toggle_4 {
+    width: 40px;
+    height: 40px;
+  }
+  .dreams_settings img:nth-child(1) {
+    display: none;
   }
 }
