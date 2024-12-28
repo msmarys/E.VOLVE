@@ -149,6 +149,112 @@ body {
 }
 
 /* Параметры мечты */
+.dream_parameters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dream_header {
+  margin: 0;
+  background-color: #f979f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dream_header p {
+  color: #fdeff9;
+  text-transform: uppercase;
+  padding: 15px 20px;
+}
+
+.dream_main {
+  border: 7px solid #f979f8;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.dream_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 5px solid #f979f8;
+}
+
+.toggle_1,
+.toggle_2,
+.toggle_3,
+.toggle_4 {
+  border-radius: 100px;
+}
+
+.toggle_1 {
+  background-color: #d8acf7;
+}
+
+.toggle_2 {
+  background-color: #f979f8;
+}
+
+.toggle_3 {
+  background-color: #fdeff9;
+}
+
+.toggle_4 {
+  background-color: #f979f8;
+}
+
+.inner_toggle_1,
+.inner_toggle_2,
+.inner_toggle_3,
+.inner_toggle_4 {
+  margin: 10px;
+  border-radius: 100px;
+}
+
+.inner_toggle_1 {
+  background-color: #fdeff9;
+}
+
+.inner_toggle_2 {
+  background-color: #fdeff9;
+}
+
+.inner_toggle_3 {
+  background-color: #d8acf7;
+}
+
+.inner_toggle_4 {
+  background-color: #d8acf7;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.right_img {
+  border: 5px solid #f979f8;
+  overflow: hidden;
+  position: relative;
+}
+
+.dreams_settings {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
 /* Ожидание генерации (шапка) */
 .result {

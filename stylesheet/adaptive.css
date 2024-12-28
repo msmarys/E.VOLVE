@@ -149,6 +149,63 @@
     width: 402px;
     height: 411px;
   }
+
+  .dream_header {
+    width: 880px;
+    height: 87px;
+  }
+
+  .dream_main {
+    width: 1740px;
+    height: 860px;
+  }
+
+  .dream_wrapper {
+    width: 1774px;
+    height: 840px;
+  }
+
+  .right_side {
+    width: 1152px;
+    height: 840px;
+  }
+
+  .right_img {
+    width: 1110px;
+    height: 504px;
+    padding: 40px;
+  }
+
+  .dreams_settings img {
+    width: 309px;
+    height: 309px;
+  }
+
+  .left_side {
+    padding: 20px;
+    width: 452px;
+    height: 800px;
+  }
+
+  .toggle_1,
+  .toggle_2,
+  .toggle_3,
+  .toggle_4 {
+    width: 80px;
+    height: 800px;
+  }
+
+  .inner_toggle_1,
+  .inner_toggle_2,
+  .inner_toggle_3,
+  .inner_toggle_4 {
+    width: 60px;
+    height: 60px;
+  }
+
+  .dream_header p {
+    font-size: 50px;
+  }
 }
 
 /* Для экранов от 1366px до 1919px */
@@ -314,6 +371,67 @@
   .pulse {
     width: 305px;
     height: 357px;
+  }
+
+  .dream_header {
+    width: 712px;
+    height: 75px;
+  }
+
+  .dream_header p {
+    font-size: 40px;
+  }
+
+  .dream_main {
+    width: 1260px;
+    height: 694px;
+  }
+
+  .dream_wrapper {
+    width: 1245px;
+    height: 674px;
+  }
+
+  .right_side {
+    width: 730px;
+    height: 674px;
+  }
+
+  .right_img {
+    width: 680px;
+    height: 634px;
+    padding: 40px;
+  }
+
+  .right_img img {
+    height: 330px;
+  }
+
+  .dreams_settings img {
+    width: 210px;
+    height: 210px;
+  }
+
+  .left_side {
+    padding: 20px;
+    width: 392px;
+    height: 643px;
+  }
+
+  .toggle_1,
+  .toggle_2,
+  .toggle_3,
+  .toggle_4 {
+    width: 80px;
+    height: 634px;
+  }
+
+  .inner_toggle_1,
+  .inner_toggle_2,
+  .inner_toggle_3,
+  .inner_toggle_4 {
+    width: 60px;
+    height: 60px;
   }
 }
 

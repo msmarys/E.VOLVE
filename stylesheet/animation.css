@@ -16,6 +16,7 @@
 .user_data_wrapper {
   animation: user_data_scroll 10s linear infinite;
 }
+
 @keyframes user_data_scroll {
   0% {
     transform: translateX(100%);
