@@ -720,6 +720,136 @@
       width: 408px;
     }
   }
+
+  .dream_header {
+    width: 628px;
+    height: 70px;
+  }
+
+  .dream_header p {
+    font-size: 35px;
+  }
+
+  .dream_main {
+    height: 614px;
+  }
+
+  .dream_wrapper {
+    height: 604px;
+  }
+
+  .right_side {
+    height: 604px;
+  }
+
+  .right_img {
+    padding: 20px;
+  }
+
+  .dreams_settings img {
+    height: 183px;
+  }
+
+  .left_side {
+    padding: 20px;
+  }
+
+  .toggle_1,
+  .toggle_2,
+  .toggle_3,
+  .toggle_4 {
+    width: 60px;
+  }
+
+  .inner_toggle_1,
+  .inner_toggle_2,
+  .inner_toggle_3,
+  .inner_toggle_4 {
+    width: 40px;
+    height: 40px;
+  }
+
+  @media (min-width: 1280px) and (max-width: 1365px) {
+    .dream_main {
+      width: 1079px;
+    }
+
+    .dream_wrapper {
+      width: 1053px;
+    }
+
+    .right_side {
+      width: 611px;
+    }
+
+    .right_img {
+      width: 611px;
+      height: 388px;
+    }
+
+    .right_img img {
+      height: 350px;
+    }
+
+    .dreams_settings img {
+      width: 183px;
+    }
+
+    .left_side {
+      width: 308px;
+      height: 560px;
+    }
+
+    .toggle_1,
+    .toggle_2,
+    .toggle_3,
+    .toggle_4 {
+      height: 560px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .dream_main {
+      width: 869px;
+      height: 540px;
+    }
+
+    .dream_wrapper {
+      width: 873px;
+      height: 530px;
+    }
+
+    .right_side {
+      width: 507px;
+      height: 530px;
+    }
+
+    .right_img {
+      width: 467px;
+      height: 323px;
+    }
+
+    .right_img img {
+      height: 300px;
+    }
+
+    .dreams_settings img {
+      width: 160px;
+      height: 160px;
+    }
+
+    .left_side {
+      width: 275px;
+      height: 490px;
+    }
+
+    .toggle_1,
+    .toggle_2,
+    .toggle_3,
+    .toggle_4 {
+      height: 490px;
+    }
+  }
 }
 
 /* Для экранов от 640px до 1023px */
