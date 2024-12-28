@@ -445,6 +445,163 @@
     width: 530px;
     height: 530px;
   }
+
+  .brain_activity {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    min-height: 159px;
+  }
+
+  .user_main {
+    flex-direction: row;
+  }
+
+  .user_name {
+    height: 258px;
+    padding: 30px;
+    margin-right: 20px;
+  }
+
+  .user_indicators {
+    height: 470px;
+    padding: 30px;
+    margin-bottom: 50px;
+  }
+
+  .user_text {
+    font-size: 50px;
+  }
+
+  .letter {
+    font-size: 70px;
+  }
+
+  .letter_line {
+    width: 80px;
+  }
+
+  .indicators {
+    height: 328px;
+    flex-direction: column;
+  }
+
+  .brain_activity p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .brain_line {
+    margin-top: 25px;
+    height: 88px;
+  }
+
+  .brain_img {
+    margin-top: 11px;
+    position: absolute;
+    width: 126px;
+    height: 113px;
+  }
+
+  .pulse_numbers {
+    margin-top: 10px;
+    justify-content: space-between;
+  }
+
+  .pulse_numbers h2 {
+    font-size: 30px;
+  }
+
+  .heart {
+    margin-top: 0px;
+    width: 130px;
+    margin-top: -5px;
+  }
+
+  .mood {
+    width: 100%;
+    height: 106px;
+  }
+
+  .mood_toggle {
+    width: 294px;
+    height: 106px;
+  }
+
+  .pulse {
+    height: 159px;
+  }
+  @media (min-width: 1024px) and (max-width: 1279px) {
+    .brain_activity {
+      width: 276px;
+    }
+
+    .user_name {
+      width: 583px;
+    }
+
+    .user_indicators {
+      width: 856px;
+    }
+
+    .indicators {
+      width: 276px;
+    }
+
+    .brain_line {
+      width: 238px;
+    }
+
+    .pulse_numbers {
+      width: 236px;
+    }
+
+    .pulse {
+      width: 263px;
+    }
+
+    .brain_img {
+      margin-left: -176px;
+      margin-top: 11px;
+      position: absolute;
+      width: 126px;
+      height: 113px;
+    }
+  }
+
+  @media (min-width: 1280px) and (max-width: 1365px) {
+    .brain_activity {
+      width: 420px;
+    }
+
+    .brain_img {
+      margin-top: 11px;
+      margin-left: -256px;
+    }
+
+    .user_name {
+      width: 614px;
+    }
+
+    .user_indicators {
+      width: 1076px;
+    }
+
+    .indicators {
+      width: 420px;
+    }
+
+    .brain_line {
+      width: 400px;
+    }
+
+    .pulse_numbers {
+      width: 380px;
+    }
+
+    .pulse {
+      width: 408px;
+    }
+  }
 }
 
 /* Для экранов от 640px до 1023px */
@@ -529,6 +686,98 @@
 
   .second_block {
     display: none;
+  }
+  .brain_activity {
+    margin-right: 0px;
+    margin-bottom: 10px;
+    width: 254px;
+    min-height: 159px;
+  }
+
+  .user_main {
+    flex-direction: row;
+  }
+
+  .user_name {
+    width: 392px;
+    height: 278px;
+    padding: 20px;
+    margin-right: 10px;
+  }
+
+  .user_indicators {
+    width: 646px;
+    height: 484px;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .user_text {
+    font-size: 30px;
+  }
+
+  .letter {
+    font-size: 50px;
+  }
+
+  .letter_line {
+    width: 60px;
+  }
+
+  .indicators {
+    width: 254px;
+    height: 328px;
+    flex-direction: column;
+  }
+
+  .brain_activity p {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+
+  .brain_line {
+    margin-top: 25px;
+    width: 238px;
+    height: 88px;
+  }
+
+  .brain_img {
+    margin-top: 10px;
+    margin-left: -176px;
+    position: absolute;
+    width: 126px;
+    height: 113px;
+  }
+
+  .pulse_numbers {
+    margin-top: 10px;
+    width: 214px;
+    justify-content: space-between;
+  }
+
+  .pulse_numbers h2 {
+    font-size: 30px;
+  }
+
+  .heart {
+    width: 130px;
+    margin-top: 0px;
+  }
+
+  .mood {
+    width: 100%;
+    height: 106px;
+  }
+
+  .mood_toggle {
+    width: 294px;
+    height: 106px;
+    animation: none !important;
+  }
+
+  .pulse {
+    width: 242px;
+    height: 159px;
   }
 }
 
