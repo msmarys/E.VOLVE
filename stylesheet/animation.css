@@ -202,14 +202,17 @@
 
 .right_img img {
   position: absolute;
-  animation: marquee 10s ease-in-out infinite;
+  animation: marquee 10s linear infinite alternate-reverse;
 }
 
 @keyframes marquee {
   0% {
     left: 100%;
   }
-  100% {
+  50% {
     left: -100%;
+  }
+  100% {
+    left: 100%;
   }
 }
