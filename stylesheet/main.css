@@ -380,3 +380,13 @@ body {
   text-align: left;
   text-transform: uppercase;
 }
+
+.footer_ticker {
+  position: relative;
+  overflow: hidden;
+}
+
+.dream_header {
+  position: relative;
+  overflow: hidden;
+}

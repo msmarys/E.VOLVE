@@ -217,11 +217,6 @@
   }
 }
 
-.dream_header {
-  position: relative;
-  overflow: hidden;
-}
-
 .dream_header p {
   display: inline-block;
   white-space: nowrap;
@@ -230,7 +225,7 @@
 }
 
 .dream_header p:nth-child(2) {
-  left: 100%; 
+  left: 100%;
 }
 
 @keyframes marquee {
@@ -238,9 +233,20 @@
     left: 100%;
   }
   50% {
-    left: 0%; 
+    left: 0%;
   }
   100% {
-    left: -100%; 
+    left: -100%;
   }
+}
+
+.footer_ticker span {
+  display: inline-block;
+  white-space: nowrap;
+  position: absolute;
+  animation: marquee 10s linear infinite;
+}
+
+.footer_ticker span:nth-child(2) {
+  left: 100%;
 }
